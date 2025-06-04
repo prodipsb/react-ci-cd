@@ -13,7 +13,7 @@ const Login = ({ onLogin }) => {
     <form onSubmit={handleSubmit}>
       <input
         type="email"
-        placeholder="Email"
+        placeholder="My Email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         data-testid="email-input"
